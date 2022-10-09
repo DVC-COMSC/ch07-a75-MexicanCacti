@@ -15,7 +15,7 @@ if len(num1) > len(num2):
 for i in range(len(num2)):
 	j = 0
 	count = 0
-	if num1[j] == num2[i]:
+	if num1[j] is num2[i]:
 		while j < len(num1) and num1[j] == num2[i] and count < len(num1):
 			i += 1
 			j += 1
